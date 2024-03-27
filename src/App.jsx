@@ -1,11 +1,7 @@
-import { useState } from 'react'
+import React from 'react';
+import GeneralRoutes from './routes';
 
 function App() {
-  return (
-      <div>
-      <h1>Hello world!</h1>
-      </div>
-  )
+  return <GeneralRoutes />;
 }
-
-export default App
+export default App;
