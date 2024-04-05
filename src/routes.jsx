@@ -1,6 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Main from './pages/Main'; 
 import Repository from './pages/Repository';
 
@@ -12,7 +11,8 @@ export default function GeneralRoutes() {
       <Routes>
         {/* cada route e uma pagina da aplicação */}
         <Route exact path="/" element={<Main/>} />
-        <Route path="/repository" element={<Repository/>} />
+        {/* vamos receber o parâmetro repository */}
+        <Route path="/repository/:repository" element={<Repository/>} />
       </Routes>
     </Router>
   );
