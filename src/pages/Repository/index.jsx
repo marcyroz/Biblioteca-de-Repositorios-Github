@@ -1,15 +1,7 @@
-import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import Container from '../../components/Container';
 import { Loading, Owner, IssuesList } from './styles';
-
-const api = axios.create({
-  baseURL: 'https://api.github.com',
-  headers: {
-    Authorization: `Bearer SEU_TOKEN_AQUI`,
-  },
-});
 
 export default function Repository() {
   const { repository } = useParams();
