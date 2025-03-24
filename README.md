@@ -1,4 +1,4 @@
-# 🚀 Projeto de Website em React
+# 🚀 Biblioteca de Repositórios do GitHub
 
 Esse projeto foi feito usando **React** e serve para armazenar e mostrar os repositórios do **GitHub** que o usuário inserir. Com ele, você consegue adicionar repositórios no formato `nomedousuario/nomedorepositorio` e acessar as **issues** desses repositórios. 
 
@@ -34,12 +34,12 @@ Após gerar o token:
 2. Insira o token no arquivo:
    
 ```
-Biblioteca-de-Repositorios-Github\src\pages\Repository
+Biblioteca-de-Repositorios-Github\src\services\api.jsx
 ```
    
 📸 _Aqui vai um print do local._
 
-![image](https://github.com/user-attachments/assets/6eb0c9ec-6558-499c-8127-410f68e3c5e1)
+![image](https://github.com/user-attachments/assets/4cbbd506-16ba-43d3-b367-21f7ec613269)
 
 ---
 
@@ -71,7 +71,7 @@ ou
 npm run dev
 ```
 
-Agora, é só acessar a aplicação no navegador em `http://localhost:3000`.
+Agora, é só acessar a aplicação no navegador em `http://localhost:5173`.
 
 ---
 
